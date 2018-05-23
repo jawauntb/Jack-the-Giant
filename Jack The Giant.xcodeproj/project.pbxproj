@@ -52,6 +52,8 @@
 		0D3C844820B5D5060015785F /* Back Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C842720B5D5060015785F /* Back Button.png */; };
 		0D3C844D20B5D6720015785F /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C844C20B5D6720015785F /* GameplayScene.sks */; };
 		0D3C845120B5DA4A0015785F /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C845020B5DA4A0015785F /* GameplayScene.swift */; };
+		0D3C845320B5DD440015785F /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C845220B5DD440015785F /* Player.swift */; };
+		0D3C845520B5DDF80015785F /* Player.atlas in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C845420B5DDF80015785F /* Player.atlas */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -123,6 +125,8 @@
 		0D3C842720B5D5060015785F /* Back Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Button.png"; sourceTree = "<group>"; };
 		0D3C844C20B5D6720015785F /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
 		0D3C845020B5DA4A0015785F /* GameplayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
+		0D3C845220B5DD440015785F /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		0D3C845420B5DDF80015785F /* Player.atlas */ = {isa = PBXFileReference; lastKnownFileType = folder.skatlas; path = Player.atlas; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -210,6 +214,7 @@
 		0D3C83FC20B5D4470015785F /* Assets */ = {
 			isa = PBXGroup;
 			children = (
+				0D3C845420B5DDF80015785F /* Player.atlas */,
 				0D3C840720B5D5060015785F /* 1 - Pause Panel And Buttons */,
 				0D3C840C20B5D5060015785F /* 2 - Collectables */,
 				0D3C841120B5D5060015785F /* 4 - Clouds */,
@@ -338,6 +343,7 @@
 		0D3C844E20B5D9DE0015785F /* Game Classes */ = {
 			isa = PBXGroup;
 			children = (
+				0D3C845220B5DD440015785F /* Player.swift */,
 				0D3C844F20B5D9EA0015785F /* Scene Classes */,
 			);
 			path = "Game Classes";
@@ -470,6 +476,7 @@
 				0D3C83D420B4CA7E0015785F /* Main.storyboard in Resources */,
 				0D3C843120B5D5060015785F /* Show Score.png in Resources */,
 				0D3C844820B5D5060015785F /* Back Button.png in Resources */,
+				0D3C845520B5DDF80015785F /* Player.atlas in Resources */,
 				0D3C843820B5D5060015785F /* Cloud 3.png in Resources */,
 				0D3C843220B5D5060015785F /* Pause Menu.png in Resources */,
 				0D3C842F20B5D5060015785F /* Options BG.png in Resources */,
@@ -524,6 +531,7 @@
 				0D3C845120B5DA4A0015785F /* GameplayScene.swift in Sources */,
 				0D3C83CF20B4CA7E0015785F /* GameScene.swift in Sources */,
 				0D3C83D120B4CA7E0015785F /* GameViewController.swift in Sources */,
+				0D3C845320B5DD440015785F /* Player.swift in Sources */,
 				0D3C83C920B4CA7E0015785F /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
