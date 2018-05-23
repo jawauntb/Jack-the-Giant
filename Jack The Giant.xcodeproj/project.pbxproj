@@ -50,6 +50,8 @@
 		0D3C844620B5D5060015785F /* Hard Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C842520B5D5060015785F /* Hard Button.png */; };
 		0D3C844720B5D5060015785F /* Medium Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C842620B5D5060015785F /* Medium Button.png */; };
 		0D3C844820B5D5060015785F /* Back Button.png in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C842720B5D5060015785F /* Back Button.png */; };
+		0D3C844D20B5D6720015785F /* GameplayScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = 0D3C844C20B5D6720015785F /* GameplayScene.sks */; };
+		0D3C845120B5DA4A0015785F /* GameplayScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D3C845020B5DA4A0015785F /* GameplayScene.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -119,6 +121,8 @@
 		0D3C842520B5D5060015785F /* Hard Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Hard Button.png"; sourceTree = "<group>"; };
 		0D3C842620B5D5060015785F /* Medium Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Medium Button.png"; sourceTree = "<group>"; };
 		0D3C842720B5D5060015785F /* Back Button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Back Button.png"; sourceTree = "<group>"; };
+		0D3C844C20B5D6720015785F /* GameplayScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameplayScene.sks; sourceTree = "<group>"; };
+		0D3C845020B5DA4A0015785F /* GameplayScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameplayScene.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -149,6 +153,8 @@
 		0D3C83BC20B4CA7D0015785F = {
 			isa = PBXGroup;
 			children = (
+				0D3C844E20B5D9DE0015785F /* Game Classes */,
+				0D3C844B20B5D6240015785F /* Scenes */,
 				0D3C83C720B4CA7E0015785F /* Jack The Giant */,
 				0D3C83FC20B5D4470015785F /* Assets */,
 				0D3C83E220B4CA7E0015785F /* Jack The GiantTests */,
@@ -321,6 +327,30 @@
 			path = "2 - Options Buttons";
 			sourceTree = "<group>";
 		};
+		0D3C844B20B5D6240015785F /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0D3C844C20B5D6720015785F /* GameplayScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		0D3C844E20B5D9DE0015785F /* Game Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0D3C844F20B5D9EA0015785F /* Scene Classes */,
+			);
+			path = "Game Classes";
+			sourceTree = "<group>";
+		};
+		0D3C844F20B5D9EA0015785F /* Scene Classes */ = {
+			isa = PBXGroup;
+			children = (
+				0D3C845020B5DA4A0015785F /* GameplayScene.swift */,
+			);
+			path = "Scene Classes";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -450,6 +480,7 @@
 				0D3C843420B5D5060015785F /* Life.png in Resources */,
 				0D3C844120B5D5060015785F /* Start Game Button.png in Resources */,
 				0D3C843520B5D5060015785F /* Coin.png in Resources */,
+				0D3C844D20B5D6720015785F /* GameplayScene.sks in Resources */,
 				0D3C83D920B4CA7E0015785F /* LaunchScreen.storyboard in Resources */,
 				0D3C842C20B5D5060015785F /* Highscore BG.png in Resources */,
 				0D3C83CD20B4CA7E0015785F /* Actions.sks in Resources */,
@@ -490,6 +521,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0D3C845120B5DA4A0015785F /* GameplayScene.swift in Sources */,
 				0D3C83CF20B4CA7E0015785F /* GameScene.swift in Sources */,
 				0D3C83D120B4CA7E0015785F /* GameViewController.swift in Sources */,
 				0D3C83C920B4CA7E0015785F /* AppDelegate.swift in Sources */,
