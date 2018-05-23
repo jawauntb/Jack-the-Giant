@@ -343,7 +343,7 @@
 		0D3C844E20B5D9DE0015785F /* Game Classes */ = {
 			isa = PBXGroup;
 			children = (
-				0D3C845220B5DD440015785F /* Player.swift */,
+				0D3C845620B5DF710015785F /* Player Class */,
 				0D3C844F20B5D9EA0015785F /* Scene Classes */,
 			);
 			path = "Game Classes";
@@ -355,6 +355,14 @@
 				0D3C845020B5DA4A0015785F /* GameplayScene.swift */,
 			);
 			path = "Scene Classes";
+			sourceTree = "<group>";
+		};
+		0D3C845620B5DF710015785F /* Player Class */ = {
+			isa = PBXGroup;
+			children = (
+				0D3C845220B5DD440015785F /* Player.swift */,
+			);
+			path = "Player Class";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
